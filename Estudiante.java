@@ -10,5 +10,11 @@ package mini_sia;
  * @author Usuario
  */
 public class Estudiante {
+    private String nombre;
+    private String apellido;
+    private int documento;
+    private int codigo;
+    private String direccion;
+
     
 }
