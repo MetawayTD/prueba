@@ -10,5 +10,23 @@ package mini_sia;
  * @author Usuario
  */
 public class HorariosClases {
-    
+
+    private String dias;
+    private int horas;
+
+    public String getDias() {
+        return dias;
+    }
+
+    public void setDias(String dias) {
+        this.dias = dias;
+    }
+
+    public int getHoras() {
+        return horas;
+    }
+
+    public void setHoras(int horas) {
+        this.horas = horas;
+    }
 }

@@ -11,6 +11,33 @@ package mini_sia;
  */
 public class Grupo {
 
+    private int numero;
+    private int carga_horaria;
+    private int cantidad_estudiantes;
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public int getCargaHoraria() {
+        return carga_horaria;
+    }
+
+    public void setCargaHoraria(int cargaHoraria) {
+        this.carga_horaria = cargaHoraria;
+    }
+
+    public int getCantidadEstudiantes() {
+        return cantidad_estudiantes;
+    }
+
+    public void setCantidadEstudiantes(int cantidadEstudiantes) {
+        this.cantidad_estudiantes = cantidadEstudiantes;
+    }
 
     
 }

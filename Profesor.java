@@ -14,15 +14,9 @@ import java.util.ArrayList;
 public class Profesor {
 
     private String nombre;
-    private String apellido;
-    private int codigo;
-    private ArrayList<String> titulos;
-    private String categoria;
-    private String ubicacion_oficina;
-
 
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
@@ -30,7 +24,7 @@ public class Profesor {
     }
 
     public String getApellido() {
-        return this.apellido;
+        return apellido;
     }
 
     public void setApellido(String apellido) {
@@ -38,7 +32,7 @@ public class Profesor {
     }
 
     public int getCodigo() {
-        return this.codigo;
+        return codigo;
     }
 
     public void setCodigo(int codigo) {
@@ -46,7 +40,7 @@ public class Profesor {
     }
 
     public ArrayList<String> getTitulos() {
-        return this.titulos;
+        return titulos;
     }
 
     public void setTitulos(ArrayList<String> titulos) {
@@ -54,7 +48,7 @@ public class Profesor {
     }
 
     public String getCategoria() {
-        return this.categoria;
+        return categoria;
     }
 
     public void setCategoria(String categoria) {
@@ -62,11 +56,20 @@ public class Profesor {
     }
 
     public String getUbicacion_oficina() {
-        return this.ubicacion_oficina;
+        return ubicacion_oficina;
     }
 
     public void setUbicacion_oficina(String ubicacion_oficina) {
         this.ubicacion_oficina = ubicacion_oficina;
     }
+
+    private String apellido;
+    private int codigo;
+    private ArrayList<String> titulos;
+    private String categoria;
+    private String ubicacion_oficina;
+
+
+
 
 }

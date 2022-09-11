@@ -25,7 +25,7 @@ public class Estudiante {
     private InformacionFinanciera info_financiera;
 
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
@@ -33,7 +33,7 @@ public class Estudiante {
     }
 
     public String getApellido() {
-        return  this.apellido;
+        return apellido;
     }
 
     public void setApellido(String apellido) {
@@ -41,7 +41,7 @@ public class Estudiante {
     }
 
     public int getDocumento() {
-        return  this.documento;
+        return documento;
     }
 
     public void setDocumento(int documento) {
@@ -49,7 +49,7 @@ public class Estudiante {
     }
 
     public int getCodigo() {
-        return  this.codigo;
+        return codigo;
     }
 
     public void setCodigo(int codigo) {
@@ -57,7 +57,7 @@ public class Estudiante {
     }
 
     public String getDireccion() {
-        return  this.direccion;
+        return direccion;
     }
 
     public void setDireccion(String direccion) {
@@ -65,7 +65,7 @@ public class Estudiante {
     }
 
     public double getNotas() {
-        return  this.notas;
+        return notas;
     }
 
     public void setNotas(double notas) {
@@ -73,7 +73,7 @@ public class Estudiante {
     }
 
     public int getNumero_telefono() {
-        return  this.numero_telefono;
+        return numero_telefono;
     }
 
     public void setNumero_telefono(int numero_telefono) {
@@ -81,7 +81,7 @@ public class Estudiante {
     }
 
     public String getTipo_sangre() {
-        return  this.tipo_sangre;
+        return tipo_sangre;
     }
 
     public void setTipo_sangre(String tipo_sangre) {
@@ -89,7 +89,7 @@ public class Estudiante {
     }
 
     public ProgramaAcadémico getPrograma_academico() {
-        return  this.programa_academico;
+        return programa_academico;
     }
 
     public void setPrograma_academico(ProgramaAcadémico programa_academico) {
@@ -97,7 +97,7 @@ public class Estudiante {
     }
 
     public Profesor getTutor() {
-        return  this.tutor;
+        return tutor;
     }
 
     public void setTutor(Profesor tutor) {
@@ -105,7 +105,7 @@ public class Estudiante {
     }
 
     public Grupo getGrupo() {
-        return  this.grupo;
+        return grupo;
     }
 
     public void setGrupo(Grupo grupo) {
@@ -113,7 +113,7 @@ public class Estudiante {
     }
 
     public InformacionFinanciera getInfo_financiera() {
-        return  this.info_financiera;
+        return info_financiera;
     }
 
     public void setInfo_financiera(InformacionFinanciera info_financiera) {

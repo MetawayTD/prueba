@@ -21,7 +21,7 @@ public class ProgramaAcadémico {
 
 
     public boolean isPregrado() {
-        return this.pregrado;
+        return pregrado;
     }
 
     public void setPregrado(boolean pregrado) {
@@ -29,7 +29,7 @@ public class ProgramaAcadémico {
     }
 
     public boolean isMaestria() {
-        return this.maestria;
+        return maestria;
     }
 
     public void setMaestria(boolean maestria) {
@@ -37,7 +37,7 @@ public class ProgramaAcadémico {
     }
 
     public boolean isEspecializacion() {
-        return this.especializacion;
+        return especializacion;
     }
 
     public void setEspecializacion(boolean especializacion) {
@@ -45,7 +45,7 @@ public class ProgramaAcadémico {
     }
 
     public boolean isDoctorado() {
-        return this.doctorado;
+        return doctorado;
     }
 
     public void setDoctorado(boolean doctorado) {
@@ -53,7 +53,7 @@ public class ProgramaAcadémico {
     }
 
     public int getCodigo() {
-        return this.codigo;
+        return codigo;
     }
 
     public void setCodigo(int codigo) {
@@ -61,7 +61,7 @@ public class ProgramaAcadémico {
     }
 
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
@@ -69,12 +69,15 @@ public class ProgramaAcadémico {
     }
 
     public int getSemestres() {
-        return this.semestres;
+        return semestres;
     }
 
     public void setSemestres(int semestres) {
         this.semestres = semestres;
     }
+
+
+
 
 
     
