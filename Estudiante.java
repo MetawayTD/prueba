@@ -19,7 +19,7 @@ public class Estudiante {
     private double notas;
     private int numero_telefono;
     private String tipo_sangre;
-    private ProgramaAcadémica programa_academico;
+    private ProgramaAcadémico programa_academico;
     private Profesor tutor;
     private Grupo grupo;
     private InformacionFinanciera info_financiera;
@@ -88,11 +88,11 @@ public class Estudiante {
         this.tipo_sangre = tipo_sangre;
     }
 
-    public ProgramaAcadémica getPrograma_academico() {
+    public ProgramaAcadémico getPrograma_academico() {
         return  this.programa_academico;
     }
 
-    public void setPrograma_academico(ProgramaAcadémica programa_academico) {
+    public void setPrograma_academico(ProgramaAcadémico programa_academico) {
         this.programa_academico = programa_academico;
     }
 
