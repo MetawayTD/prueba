@@ -17,6 +17,7 @@ public class Materia {
     private int numero_creditos;
     private List<String> prerrequisitos;
     private List<String> temas;
+    private List<Grupo> grupos;
 
     public String getNombre() {
         return nombre;
@@ -49,4 +50,14 @@ public class Materia {
     public void setTemas(List<String> temas) {
         this.temas = temas;
     }
+
+
+    public List<Grupo> getGrupos() {
+        return grupos;
+    }
+
+    public void setGrupos(List<Grupo> grupos) {
+        this.grupos = grupos;
+    }
+
 }

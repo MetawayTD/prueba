@@ -5,7 +5,7 @@
  */
 package mini_sia;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -14,6 +14,14 @@ import java.util.ArrayList;
 public class Profesor {
 
     private String nombre;
+    private String apellido;
+    private int codigo;
+    private List<String> titulos;
+    private String categoria;
+    private String ubicacion_oficina;
+    private List<Estudiante> encargados;
+    private List<Grupo> grupos_a_cargo;
+
 
     public String getNombre() {
         return nombre;
@@ -39,11 +47,11 @@ public class Profesor {
         this.codigo = codigo;
     }
 
-    public ArrayList<String> getTitulos() {
+    public List<String> getTitulos() {
         return titulos;
     }
 
-    public void setTitulos(ArrayList<String> titulos) {
+    public void setTitulos(List<String> titulos) {
         this.titulos = titulos;
     }
 
@@ -63,12 +71,21 @@ public class Profesor {
         this.ubicacion_oficina = ubicacion_oficina;
     }
 
-    private String apellido;
-    private int codigo;
-    private ArrayList<String> titulos;
-    private String categoria;
-    private String ubicacion_oficina;
+    public List<Estudiante> getEncargados() {
+        return encargados;
+    }
 
+    public void setEncargados(List<Estudiante> encargados) {
+        this.encargados = encargados;
+    }
+
+    public List<Grupo> getGrupos_a_cargo() {
+        return grupos_a_cargo;
+    }
+
+    public void setGrupos_a_cargo(List<Grupo> grupos_a_cargo) {
+        this.grupos_a_cargo = grupos_a_cargo;
+    }
 
 
 

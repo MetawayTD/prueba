@@ -18,6 +18,7 @@ public class ProgramaAcadémico {
     private int codigo;
     private String nombre;
     private int semestres;
+    private Estudiante estudiante;
 
 
     public boolean isPregrado() {
@@ -76,9 +77,15 @@ public class ProgramaAcadémico {
         this.semestres = semestres;
     }
 
+    public Estudiante getEstudiante() {
+        return estudiante;
+    }
+
+    public void setEstudiante(Estudiante estudiante) {
+        this.estudiante = estudiante;
+    }
 
 
 
 
-    
 }

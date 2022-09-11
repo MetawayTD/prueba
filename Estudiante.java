@@ -5,6 +5,8 @@
  */
 package mini_sia;
 
+import java.util.List;
+
 /**
  *
  * @author Usuario
@@ -21,7 +23,7 @@ public class Estudiante {
     private String tipo_sangre;
     private ProgramaAcadémico programa_academico;
     private Profesor tutor;
-    private Grupo grupo;
+    private List<Grupo> grupos;
     private InformacionFinanciera info_financiera;
 
     public String getNombre() {
@@ -104,12 +106,12 @@ public class Estudiante {
         this.tutor = tutor;
     }
 
-    public Grupo getGrupo() {
-        return grupo;
+    public List<Grupo> getGrupos() {
+        return grupos;
     }
 
-    public void setGrupo(Grupo grupo) {
-        this.grupo = grupo;
+    public void setGrupo(List<Grupo> grupos) {
+        this.grupos = grupos;
     }
 
     public InformacionFinanciera getInfo_financiera() {
