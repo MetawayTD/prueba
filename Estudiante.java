@@ -18,7 +18,7 @@ public class Estudiante {
     private int documento;
     private int codigo;
     private String direccion;
-    private double notas;
+    private double [] notas;
     private int numero_telefono;
     private String tipo_sangre;
     private ProgramaAcadémico programa_academico;
@@ -66,11 +66,11 @@ public class Estudiante {
         this.direccion = direccion;
     }
 
-    public double getNotas() {
+    public double [] getNotas() {
         return notas;
     }
 
-    public void setNotas(double notas) {
+    public void setNotas(double [] notas) {
         this.notas = notas;
     }
 
